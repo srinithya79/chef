@@ -2,23 +2,24 @@
 
 # chef
 
-what is chef?
+**what is chef?**
 	chef is a configuration management tool
-what is configuration management tool?
+	
+**what is configuration management tool?**
 	It is maintain number(100 and 1000's) of machines with automation.
 
-what is maintain?
+**what is maintain?**
 	It maintain the system resources such as
 	1)Install a application
 	2)Configuration
 	3)Updates
 	4)Maintain and so on..
 
-Why Configuration management tool?
+**Why Configuration management tool?**
 	-> reduce management complexity
 	-> save time
 
-configuration management tools?
+**configuration management tools?**
 	puppet ------> 2005		pull mechanism
 	chef 	--------> 2008		pull mechanism
 	ansible ------> 2011		push mechanism
@@ -30,7 +31,7 @@ Infrastructure as a code
 ->reduce management complexity through abstraction.
 ->your policy states what state each resource should be in.
 
-what is resource?
+**what is resource?**
 	Resource is a piece of system and it's desired state.
 
 file---> create,delete
@@ -48,30 +49,30 @@ managing complexity
 6)cookbooks
 7)runlist
 
-1)Organization
+**1)Organization**
 	It is independent tenant.
 	eg: companies, department.
-2)Environment
+**2)Environment**
 	environment reflect your patterns and workflow, and can be used to model the life stages of your applications.
 	->development env
 	->testing env
 	->staging env
 	->production env
 
-3)Roles
+**3)Roles**
 	Roles represents the type of servers in your infrastructure.
 	-> LB server
 	-> web server
 	-> DB server
-4)Nodes
+**4)Nodes**
 	Nodes represents the servers  in your infrastructure, it could be a physical server or virtual server.
 	Could also be a network hardwares, switches, routes, etc...
-5)Receipe
+**5)Receipe**
 	Receipe is a collection of resources
 	file creation, installing app
-6)Cookbooks
+**6)Cookbooks**
 	Collection of receipes and templates and custom resources..
-7)Runlist
+**7)Runlist**
 	runlist is a collection of cookbooks, and every machine has it's own runlist.
 
 
