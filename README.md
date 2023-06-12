@@ -3,7 +3,7 @@
 # chef
 
 **what is chef?**
-	chef is a configuration management tool
+chef is a configuration management tool
 	
 **what is configuration management tool?**
 	It is maintain number(100 and 1000's) of machines with automation.
